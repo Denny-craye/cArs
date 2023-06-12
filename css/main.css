@@ -168,11 +168,9 @@ p {
 .intro::after {
     width: 100%;
     height: 100%;
-
     position: absolute;
     top: 0;
     left: 0;
-
     background-color: rgba(0, 0, 0, 0.2);
     content: '';
 }
@@ -301,7 +299,6 @@ p {
     opacity: 0;
     z-index: 2;
     transition: opacity .2s ease;
-
 }
 
 .services-text {
@@ -315,7 +312,6 @@ p {
     left: 30px;
     bottom: 20px;
     text-transform: uppercase;
-
 }
 
 .services-title {
@@ -325,7 +321,6 @@ p {
     letter-spacing: 0.23em;
     color: black;
     text-transform: uppercase;
-
 }
 
 .wrapper {
@@ -424,6 +419,7 @@ p {
     padding: 100px 0;
     background: #171616;
 }
+
 .contacts-title {
     font-size: 30px;
     letter-spacing: 0.15em;
@@ -434,11 +430,13 @@ p {
     max-width: 440px;
     margin-top: 46px;
 }
+
 .form-row {
     margin: 0 -20px ;
     display: flex;
 
 }
+
 .form-group {
     margin-bottom: 30px;
     padding: 0 20px;
@@ -446,6 +444,7 @@ p {
     position: relative;
 
 }
+
 .form-input {
     width: 100%;
     padding: 9px 0;
@@ -511,7 +510,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .copyright {
     font-weight: 400;
