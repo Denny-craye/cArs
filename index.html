@@ -8,298 +8,302 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
 
-    <script defer src="./js/main.js" ></script>
+    <script defer src="./js/main.js"></script>
 </head>
 <body>
-
-    <header class="header open">
-        <div class="container">
-            <div class="header__wrapper">
-                <div class="header__block">
-                    <a class="header-logo" href="#">
-                        <img src="./img/logo-1.png" alt="logo cArs">
-                    </a>
-                </div>
-
-                <nav class="navigation">
-                    <a href="#" class="navigation-link active">Main</a>
-                    <a href="#" class="navigation-link">Our services</a>
-                    <a href="#" class="navigation-link">About</a>
-                    <a href="#" class="navigation-link">Contacts</a>
-                </nav>
-
-                <div class="header__block">
-                    <div class="header-languages">
-                        <a class="languages-link" href="#">Ru</a>
-                        <a class="languages-link active" href="#">En</a>
+    <div class="body-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__block">
+                        <a class="header-logo" href="#">
+                            <img src="./img/logo-1.png" alt="logo cArs">
+                        </a>
                     </div>
-                </div>
 
-                <button class="header-burger" id="burger">
-                    <span></span><span></span><span></span>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <section class="intro" style="background-image: url(./img/background-intro.jpg);">
-        <div class="container">
-            <div class="intro-content">
-                <div class="intro-block">
-                    <h1 class="intro-title">
-                        KEEPING YOU ON THE ROAD WITH 
-                        SERVICE YOU CAN TRUST
-                    </h1>
-                    <a class="button" href="#">Show more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="info">
-        <div class="container">
-            <div class="wrapper">
-                <div class="block">
-                    <div class="info-item">
-                        <div class="info-img">
-                            <img src="./img/svg/call-1.svg" alt="Number phone">
+                    <button class="header-burger" id="burger">
+                        <span></span><span></span><span></span>
+                    </button>
+    
+                    <nav class="navigation" id="navigation">
+                        <div class="navigation-list">
+                            <a href="#" class="navigation-link active">Main</a>
+                            <a href="#" class="navigation-link">Our services</a>
+                            <a href="#" class="navigation-link">About</a>
+                            <a href="#" class="navigation-link">Contacts</a>
                         </div>
-                        <h4 class="info-title">
-                            <a class="info-title-a" href="tel:222222222">CALL US NOW 222-222-222</a>
-                        </h4>
-                        <p class="info-text">
-                            Feel free to call us
-                        </p>
-                    </div>
-                </div>
-
-                <div class="block">
-                    <div class="info-item">
-                        <div class="info-img">
-                            <img src="./img/svg/calendar-2.svg" alt="Select date">
+    
+                    </nav>
+    
+                    <div class="languages-block">
+                        <div class="header-languages">
+                            <a class="languages-link" href="#">Ru</a>
+                            <a class="languages-link active" href="#">En</a>
                         </div>
-                        <h4 class="info-title">
-                            <a class="info-title-a" href="#">GET FREE APPOITMET</a>
-                        </h4>
-                        <p class="info-text">
-                            Free Diagnosis & Brake Checks
-                        </p>
-                    </div>
-                </div>
-
-                <div class="block">
-                    <div class="info-item">
-                        <div class="info-img">
-                            <img src="./img/svg/maps-and-flags-3.svg" alt="Our address">
-                        </div>
-                        <h4 class="info-title">
-                            <a class="info-title-a" href="#">FIND US ON MAP</a>
-                        </h4>
-                        <p class="info-text">
-                            New York, 1286 Ruumu Nanor
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="services  mb100px">
-        <div class="container">
-            <h2 class="title-h2 ">
-                OUR SERVICES
-            </h2>
-
-            <a href="#" class="services-link">
-                VIEW ALL SERVICES
-            </a>
-
-            <div class="wrapper">
-                <div class="block">
-                    <a href="#" class="services-item">
-                        <div class="services-content" style="background-image: url(./img/diagnostic.jpg);">
-                            <div class="services-content-all">
-                                <div class="services-image">
-                                    <img src="./img/svg/plus.svg" alt="plus sign">
-                                </div>
-                                <p class="services-text">
-                                    ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                                </p>
-                            </div>
-                        </div>
-                        <h3 class="services-title">
-                            DIAGNOSTIC
-                        </h3>                      
-                    </a>
-                </div>
-
-                <div class="block">
-                    <a href="#" class="services-item">
-                        <div class="services-content" style="background-image: url(./img/tires.jpg);">
-                            <div class="services-content-all">
-                                <div class="services-image">
-                                    <img src="./img/svg/plus.svg" alt="plus sign">
-                                </div>
-                                <p class="services-text">
-                                    ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                                </p>
-                            </div>
-                        </div>
-                        <h3 class="services-title">
-                            TIRES & WHEELS
-                        </h3>                      
-                    </a>
-                </div>
-
-                <div class="block">
-                    <a href="#" class="services-item">
-                        <div class="services-content" style="background-image: url(./img/Engine.jpg);">
-                            <div class="services-content-all">
-                                <div class="services-image">
-                                    <img src="./img/svg/plus.svg" alt="plus sign">
-                                </div>
-                                <p class="services-text">
-                                    ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                                </p>
-                            </div>
-                        </div>
-                        <h3 class="services-title">
-                            ENGINES
-                        </h3>                      
-                    </a>
+        </header>
+    
+        <section class="intro" style="background-image: url(./img/background-intro.jpg);">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="intro-block">
+                        <h1 class="intro-title">
+                            KEEPING YOU ON THE ROAD WITH 
+                            SERVICE YOU CAN TRUST
+                        </h1>
+                        <a class="button" href="#">Show more</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="about mb100px">
-        <div class="container">
-            <div class="about-wrapper">
-                <div class="about-block">
-                    <h2 class="title-h2 text-white">
-                        WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE
-                    </h2>
-                    <p class="about-text">
-                        Car repairs and maintenance can be expensive and no one wants to have pay to repair damage caused by shoddy repair service. When you bring your car into our auto shop, you won’t have to worry because our staff is comprised of ASE certified technicians who are committed to making sure you have a safe dependable car.
-                    </p>
-                    <a href="#" class="about-link">
-                        MORE ABOUT US
-                    </a>
-                </div>
-                <div class="main-about-img">
-                    <div class="about-image" style="background-image: url(./img/about-us.jpg);">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="work-process mb100px">
-        <div class="container">
-                <h2 class="process-title">FAST & EASY</h2>
-                <h3 class="process-subtitle">our work process</h3>
-
+        </section>
+    
+        <section class="info">
+            <div class="container">
                 <div class="wrapper">
                     <div class="block">
-                        <div class="process-item">
-                            <h4 class="info-title">1.Request your quote</h4>
+                        <div class="info-item">
+                            <div class="info-img">
+                                <img src="./img/svg/call-1.svg" alt="Number phone">
+                            </div>
+                            <h4 class="info-title">
+                                <a class="info-title-a" href="tel:222222222">CALL US NOW 222-222-222</a>
+                            </h4>
                             <p class="info-text">
-                                We will be there when you most need us
+                                Feel free to call us
                             </p>
                         </div>
                     </div>
-        
+    
                     <div class="block">
-                        <div class="process-item">
-                            <h4 class="info-title">02. BRING YOUR VEHICLE</h4>
+                        <div class="info-item">
+                            <div class="info-img">
+                                <img src="./img/svg/calendar-2.svg" alt="Select date">
+                            </div>
+                            <h4 class="info-title">
+                                <a class="info-title-a" href="#">GET FREE APPOITMET</a>
+                            </h4>
                             <p class="info-text">
-                                We are car guys at heart
+                                Free Diagnosis & Brake Checks
                             </p>
                         </div>
                     </div>
-        
+    
                     <div class="block">
-                        <div class="process-item">
-                            <h4 class="info-title">03. GET IT REPAIRED</h4>
+                        <div class="info-item">
+                            <div class="info-img">
+                                <img src="./img/svg/maps-and-flags-3.svg" alt="Our address">
+                            </div>
+                            <h4 class="info-title">
+                                <a class="info-title-a" href="#">FIND US ON MAP</a>
+                            </h4>
                             <p class="info-text">
-                                High quality, low cost car servicing
+                                New York, 1286 Ruumu Nanor
                             </p>
                         </div>
                     </div>
-                </div>
-        </div>
-    </section>
-
-    <section class="contacts">
-        <div class="container">
-            <h2 class="title-h2 text-white contacts-title">
-                Contact us
-            </h2>
-
-            <form class="contacts-form" action="get">
-                <div class="form-row">
-                    <div class="form-group">
-                        <input type="text" class="form-input" placeholder=" ">
-                        <label for="" class="form-label">
-                            Name
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-input" placeholder=" ">
-                        <label for="" class="form-label">
-                            Last name
-                        </label>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <input type="email" class="form-input" placeholder=" ">
-                        <label for="" class="form-label">
-                            Email
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" class="form-input" placeholder=" ">
-                        <label for="" class="form-label">
-                            Phone
-                        </label>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <textarea class="form-textarea" placeholder=" "></textarea>
-                        <label for="" class="form-label">
-                            Message
-                        </label>
-                    </div>
-                </div>
-
-                <button type="submit" class="button text-uppercase">Send</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-wrapper">
-                <p class="copyright">
-                    © 2021 Auto theme by Frontend Tricks
-                </p>
-                <div class="social-network">
-                    <a target="_blank" href="https://ru.linkedin.com/" class="social-link">
-                        <img src="./img/svg/linkedin.svg" alt="we are in Linkedid">
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/" class="social-link">
-                        <img src="./img/svg/facebook.svg" alt="we are in Facebook">
-                    </a>
-                    <a target="_blank" href="https://ru-ru.facebook.com/" class="social-link">
-                        <img src="./img/svg/instagram.svg" alt="we are in instagram">
-                    </a>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
     
+        <section class="services  mb100px">
+            <div class="container">
+                <h2 class="title-h2 ">
+                    OUR SERVICES
+                </h2>
+    
+                <a href="#" class="services-link">
+                    VIEW ALL SERVICES
+                </a>
+    
+                <div class="wrapper">
+                    <div class="block">
+                        <a href="#" class="services-item">
+                            <div class="services-content" style="background-image: url(./img/diagnostic.jpg);">
+                                <div class="services-content-all">
+                                    <div class="services-image">
+                                        <img src="./img/svg/plus.svg" alt="plus sign">
+                                    </div>
+                                    <p class="services-text">
+                                        ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="services-title">
+                                DIAGNOSTIC
+                            </h3>                      
+                        </a>
+                    </div>
+    
+                    <div class="block">
+                        <a href="#" class="services-item">
+                            <div class="services-content" style="background-image: url(./img/tires.jpg);">
+                                <div class="services-content-all">
+                                    <div class="services-image">
+                                        <img src="./img/svg/plus.svg" alt="plus sign">
+                                    </div>
+                                    <p class="services-text">
+                                        ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="services-title">
+                                TIRES & WHEELS
+                            </h3>                      
+                        </a>
+                    </div>
+    
+                    <div class="block">
+                        <a href="#" class="services-item">
+                            <div class="services-content" style="background-image: url(./img/Engine.jpg);">
+                                <div class="services-content-all">
+                                    <div class="services-image">
+                                        <img src="./img/svg/plus.svg" alt="plus sign">
+                                    </div>
+                                    <p class="services-text">
+                                        ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="services-title">
+                                ENGINES
+                            </h3>                      
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="about mb100px">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-block">
+                        <h2 class="title-h2 text-white">
+                            WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE
+                        </h2>
+                        <p class="about-text">
+                            Car repairs and maintenance can be expensive and no one wants to have pay to repair damage caused by shoddy repair service. When you bring your car into our auto shop, you won’t have to worry because our staff is comprised of ASE certified technicians who are committed to making sure you have a safe dependable car.
+                        </p>
+                        <a href="#" class="about-link">
+                            MORE ABOUT US
+                        </a>
+                    </div>
+                    <div class="main-about-img">
+                        <div class="about-image" style="background-image: url(./img/about-us.jpg);">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="work-process mb100px">
+            <div class="container">
+                    <h2 class="process-title">FAST & EASY</h2>
+                    <h3 class="process-subtitle">our work process</h3>
+    
+                    <div class="wrapper">
+                        <div class="block">
+                            <div class="process-item">
+                                <h4 class="info-title">1.Request your quote</h4>
+                                <p class="info-text">
+                                    We will be there when you most need us
+                                </p>
+                            </div>
+                        </div>
+            
+                        <div class="block">
+                            <div class="process-item">
+                                <h4 class="info-title">02. BRING YOUR VEHICLE</h4>
+                                <p class="info-text">
+                                    We are car guys at heart
+                                </p>
+                            </div>
+                        </div>
+            
+                        <div class="block">
+                            <div class="process-item">
+                                <h4 class="info-title">03. GET IT REPAIRED</h4>
+                                <p class="info-text">
+                                    High quality, low cost car servicing
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    
+        <section class="contacts">
+            <div class="container">
+                <h2 class="title-h2 text-white contacts-title">
+                    Contact us
+                </h2>
+    
+                <form class="contacts-form" action="get">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder=" ">
+                            <label for="" class="form-label">
+                                Name
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder=" ">
+                            <label for="" class="form-label">
+                                Last name
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder=" ">
+                            <label for="" class="form-label">
+                                Email
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-input" placeholder=" ">
+                            <label for="" class="form-label">
+                                Phone
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <textarea class="form-textarea" placeholder=" "></textarea>
+                            <label for="" class="form-label">
+                                Message
+                            </label>
+                        </div>
+                    </div>
+    
+                    <button type="submit" class="button text-uppercase">Send</button>
+                </form>
+            </div>
+        </section>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <p class="copyright">
+                        © 2021 Auto theme by Frontend Tricks
+                    </p>
+                    <div class="social-network">
+                        <a target="_blank" href="https://ru.linkedin.com/" class="social-link">
+                            <img src="./img/svg/linkedin.svg" alt="we are in Linkedid">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/" class="social-link">
+                            <img src="./img/svg/facebook.svg" alt="we are in Facebook">
+                        </a>
+                        <a target="_blank" href="https://ru-ru.facebook.com/" class="social-link">
+                            <img src="./img/svg/instagram.svg" alt="we are in instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
 </body>
 </html>
