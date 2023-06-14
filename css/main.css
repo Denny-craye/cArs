@@ -135,8 +135,6 @@ p {
     transform: translateY(-10px);
 }
 
-.header-burger span:nth-child(2) {}
-
 .header-burger span:nth-child(3) {
     transform: translateY(10px);
 }
@@ -160,6 +158,10 @@ p {
 
 .navigation {
     display: flex;
+}
+
+.navigation-list {
+    word-spacing: 3px;
 }
 
 .navigation-link {
